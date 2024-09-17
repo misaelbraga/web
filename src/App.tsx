@@ -1,15 +1,12 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div className="card">
         <div className='card-top'>
           <div className='card-top-left'>
-            <img className='avatar' src="/src/assets/misael_avatar.jpg" alt="" width="64px" srcset="" />
+            <img className='avatar' src="/src/assets/misael_avatar.jpg" alt="avatar showing picture of Misael smiling, an white man with short curly hair and wearing silver glasses and a black t-shirt" width="64px"/>
           </div>
           <div className='card-top-right'>
             <p className='name'>Misael</p>
