@@ -9,10 +9,55 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+.name {
+  color: whitesmoke;
+  margin: 0;
+  font-family: monospace;
+  font-size: 2.8em;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1em;
 }
 
+.subname {
+  color: #DDD;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: normal;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-top-left {
+ margin-right: 1.5em;
+ padding-top: 0.6em;
+ padding-left: 1em;
+}
+
+.avatar {
+  border-radius: 100%;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 /* 
 .logo {
   height: 6em;

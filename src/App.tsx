@@ -6,14 +6,24 @@ function App() {
 
   return (
     <>
-      <h1>Misael Braga</h1>
-      <p className="read-the-docs">
-        Placeholder
-      </p>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <div className='card-top'>
+          <div className='card-top-left'>
+            <img className='avatar' src="/src/assets/misael_avatar.jpg" alt="" width="64px" srcset="" />
+          </div>
+          <div className='card-top-right'>
+            <p className='name'>Misael</p>
+            <p className='name'>Braga</p>
+          </div>
+        </div>
+        <div className='card-bot'>
+          <p className="subname">
+            Software Developer<span className='blink'>|</span>
+          </p>
+        </div>
+        {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button>
+        </button> */}
       </div>
     </>
   )
