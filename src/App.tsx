@@ -1,4 +1,5 @@
 import './App.css'
+import avatarSrc from '/src/assets/misael_avatar.jpg'
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className="card">
         <div className='card-top'>
           <div className='card-top-left'>
-            <img className='avatar' src="/src/assets/misael_avatar.jpg" alt="avatar showing picture of Misael smiling, an white man with short curly hair and wearing silver glasses and a black t-shirt" width="64px"/>
+            <img className='avatar' src={avatarSrc} alt="avatar picture of Misael smiling" width="64px"/>
           </div>
           <div className='card-top-right'>
             <p className='name'>Misael</p>
