@@ -15,13 +15,10 @@ function App() {
           </div>
         </div>
         <div className='card-bot'>
-          <p className="subname">
-            Software Developer<span className='blink'>|</span>
+          <p className="subname typewriter">
+            Software Developer
           </p>
         </div>
-        {/* <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button> */}
       </div>
     </>
   )
